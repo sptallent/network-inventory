@@ -1,0 +1,16 @@
+<tabs>
+    <tab
+        id="@+id/action_scan"
+        icon="@drawable/action_scan"
+        title="@string/scan" />
+
+    <tab
+        id="@+id/action_history"
+        icon="@drawable/action_history"
+        title="@string/history" />
+
+    <tab
+        id="@+id/action_alerts"
+        icon="@drawable/action_alert"
+        title="@string/alerts" />
+</tabs>

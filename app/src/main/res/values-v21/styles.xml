@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar"><!-- AppCompat.Light.NoActionBar -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorHint">@color/colorHintText</item>
+        <item name="android:windowBackground">@color/colorWhiteBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <!--<style name="PortScanInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="endIconTint">@color/colorAccent</item>
+    </style>-->
+
+</resources>

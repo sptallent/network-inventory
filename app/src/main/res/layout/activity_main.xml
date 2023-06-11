@@ -1,0 +1,39 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_wrapper"
+    android:visibility="visible"
+    android:background="@color/colorBackgroundGray"><!-- invisible -->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewpager">
+
+        <include layout="@layout/toolbar_layout" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <sage.networktools.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?attr/actionBarSize"
+        android:paddingBottom="60dp"
+        android:layout_above="@+id/bottom_nav"
+        />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorWhite"
+        app:bb_showShadow="true"
+        app:bb_activeTabColor="@color/colorPrimary"
+        app:bb_inActiveTabColor="@color/colorGray"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

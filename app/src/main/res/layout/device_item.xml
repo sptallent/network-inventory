@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/device_background"
+    android:id="@+id/device_item"
+    android:layout_marginStart="3dp"
+    android:layout_marginEnd="3dp"
+    android:layout_marginTop="3dp"
+    android:padding="8dp"
+    android:elevation="1dp"
+    android:baselineAligned="false"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hostname_text"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:fontFamily="@font/latoreg"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip_text"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:fontFamily="@font/latoreg"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vendor_text"
+            android:layout_gravity="center"
+            android:textColor="@color/colorGray"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:fontFamily="@font/latoreg"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mac_text"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:fontFamily="@font/latoreg"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>
