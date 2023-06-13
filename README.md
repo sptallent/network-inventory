@@ -30,7 +30,7 @@ Contributions to this project are welcome. If you would like to contribute, plea
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Please see the LICENSE file for more details.
+This project is licensed under the [MIT License](LICENSE.md). Please see the LICENSE file for more details.
 
 ## Contact
 
