@@ -13,7 +13,7 @@ Network Inventory utilizes various scanning techniques to identify devices on th
 
 ## Usage
 
-1. Clone the repository to your local machine. ``git clone https://github.com/sptallent/network-inventory.git```
+1. Clone the repository to your local machine. ```git clone https://github.com/sptallent/network-inventory.git```
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
